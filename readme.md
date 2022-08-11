@@ -5,11 +5,11 @@
 <p align = "center">The clock is available in 12 hour and 24 hour format. In the images below it is in 24 hour and 12 hour format.</p>
 <br>
 <div align="center">
-<img src="public/image/screenshot1.jpg" width = "500px">
+<img src="public/image/screenshot1.JPG" width = "500px">
 </div>
 <br>
 <br>
 <div align="center">
-<img src="public/image/screenshot2.jpg" width = "500px">
+<img src="public/image/screenshot2.JPG" width = "500px">
 </div>
 <br>
