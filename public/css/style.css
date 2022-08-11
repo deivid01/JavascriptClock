@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: japanese;
+    src: url(../fonts/japanesefont.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: digital;
+    src: url(../fonts/DS-DIGI.TTF) format('truetype');
+}
+
+* {
+    font-family: japanese;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../image/albedo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 3.2em;
+    color: #f2f2f2;
+}
+
+.clock {
+    margin: 20vh;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: digital;
+    border: 5px solid #f2f2f2;
+    font-size: 6em;
+    padding: 8px 25px 8px 25px;
+    border-radius: 10px;
+    color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.2em;
+    padding: 12px;
+    border-radius: 20px;
+    border: #fff solid 2px;
+    color: #f2f2f2;
+    background: none;
+}
+
+button:hover {
+    background-color: #3E2D40;
+    cursor: pointer;
+    
+}
